@@ -20,6 +20,23 @@ it, simply add the following line to your Podfile:
 pod "FFSwiftExtensions"
 ```
 
+
+## Contribution Guide
+
+* To enable development pod mode simply put pod source in the same path of your project and include it on your project's `Podfile` like this:
+
+```ruby
+pod "FFSwiftExtensions", :path => '../FFSwiftExtensions'
+```
+
+* To publish the pod add a new tag and update the `podspec`.
+
+* After the tag is applied on origin, push the spec to the internal Specs repo via:
+
+```bash
+~/dev/FFSwiftExtensions #  pod repo push farfetch FFSwiftExtensions.podspec  --private
+```
+
 ## Author
 
 simaoseica, simaoseica@gmail.com
