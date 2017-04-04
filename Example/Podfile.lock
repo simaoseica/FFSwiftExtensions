@@ -1,0 +1,25 @@
+PODS:
+  - FFSwiftExtensions (0.1.0)
+  - Nimble (5.1.1)
+  - Quick (1.0.0)
+  - SwiftLint (0.17.0)
+
+DEPENDENCIES:
+  - FFSwiftExtensions (from `../`)
+  - Nimble (~> 5.1.1)
+  - Quick (~> 1.0.0)
+  - SwiftLint
+
+EXTERNAL SOURCES:
+  FFSwiftExtensions:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FFSwiftExtensions: a3d1efa3566b91ff79d211c6b5fa24ff545399d7
+  Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  SwiftLint: 9fb1dd71d5952d130f8c2fb60ae2e1475cf5d575
+
+PODFILE CHECKSUM: d44240fe8db41d4de50a7f4547883e5fc0555ba1
+
+COCOAPODS: 1.2.0
