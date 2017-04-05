@@ -1,5 +1,5 @@
 //
-//  Sequence.swift
+//  UINavigationController.swift
 //  FFSwiftExtensions
 //
 //  Created by Simão Seiça  on 04/04/2017.

@@ -1,27 +1,30 @@
 //
-//  Sequence.swift
+//  Describable.swift
 //  FFSwiftExtensions
 //
 //  Created by Simão Seiça  on 04/04/2017.
 //
 //
 
-protocol Describable	{
+public protocol Describable	{
 	var typeName: String { get }
 	static var typeName: String { get }
 }
 
 extension Describable {	
-	var typeName: String {
+
+    public var typeName: String {
 		return String(describing: self)
 	}
-	static var typeName: String {
+
+    public static var typeName: String {
 		return String(describing: self)
 	}
 }
 
 extension Describable where Self: NSObjectProtocol {
-	var typeName: String {
+
+    public var typeName: String {
 		let type = type(of: self)
 		return String(describing: type)
 	}

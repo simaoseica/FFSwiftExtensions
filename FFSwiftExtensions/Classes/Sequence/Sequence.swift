@@ -8,7 +8,7 @@
 
 extension Sequence {
 
-    func count(_ shouldCount: (Iterator.Element) -> Bool) -> Int {
+    public func count(_ shouldCount: (Iterator.Element) -> Bool) -> Int {
 
         var count = 0
 

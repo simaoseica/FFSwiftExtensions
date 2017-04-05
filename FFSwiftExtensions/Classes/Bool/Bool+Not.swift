@@ -1,5 +1,5 @@
 //
-//  Sequence.swift
+//  Bool.swift
 //  FFSwiftExtensions
 //
 //  Created by Simão Seiça  on 04/04/2017.
@@ -7,7 +7,8 @@
 //
 
 extension Bool {	
-	var not: Bool {
+
+    public var not: Bool {
 		return !self
 	}
 }
