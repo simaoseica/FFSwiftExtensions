@@ -31,6 +31,8 @@ pod "FFSwiftExtensions", :path => '../FFSwiftExtensions'
 
 * To publish the pod add a new tag and update the `podspec`.
 
+* Be sure to run `pod lib lint FFSwiftExtensions.podspec` to ensure this is a valid spec before submitting.
+
 * After the tag is applied on origin, push the spec to the internal Specs repo via:
 
 ```bash
