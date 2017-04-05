@@ -10,7 +10,7 @@ Besides that, the idea is to have subspecs to avoid all the extra boilerplate.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "simaoseica" => "simaoseica@gmail.com" }
-  s.source           = { :git => "https://github.com/simaoseica/FFSwiftExtensions.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/simaoseica/SSSpecs.git", :tag => s.version.to_s }
   s.social_media_url = "https://twitter.com/simaoseica"
 
   s.ios.deployment_target = "10.0"
