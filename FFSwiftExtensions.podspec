@@ -10,7 +10,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Swift Extensions for Farfetch projects.
+This pod gives a bunch of Swift Extensions that can be applied on Farfetch projects.
+Besides that, the idea is to have subspecs to avoid all the extra boilerplate.  
                        DESC
 
   s.homepage         = 'https://github.com/simaoseica/FFSwiftExtensions'
