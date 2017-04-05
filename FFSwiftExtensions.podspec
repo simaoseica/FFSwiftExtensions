@@ -1,23 +1,23 @@
-Pod::Spec.new do |s|
-  s.name             = "FFSwiftExtensions"
-  s.version          = "0.1.0"
-  s.summary          = "Swift Extensions for Farfetch projects."
-  s.description      = <<-DESC
+Pod::Spec.new do |spec|
+  spec.name             = "FFSwiftExtensions"
+  spec.version          = "0.1.0"
+  spec.summary          = "Swift Extensions for Farfetch projects."
+  spec.description      = <<-DESC
 This pod gives a bunch of Swift Extensions that can be applied on Farfetch projects.
 Besides that, the idea is to have subspecs to avoid all the extra boilerplate.  
                        DESC
-  s.homepage         = "https://github.com/simaoseica/FFSwiftExtensions"
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => "MIT", :file => "LICENSE" }
-  s.author           = { "simaoseica" => "simaoseica@gmail.com" }
-  s.source           = { :git => "https://github.com/simaoseica/SSSpecs.git", :tag => s.version.to_s }
-  s.social_media_url = "https://twitter.com/simaoseica"
+  spec.homepage         = "https://github.com/simaoseica/FFSwiftExtensions"
+  # spec.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  spec.license          = { :type => "MIT", :file => "LICENSE" }
+  spec.author           = { "simaoseica" => "simaoseica@gmail.com" }
+  spec.source           = { :git => "https://github.com/simaoseica/FFSwiftExtensions.git", :tag => spec.version }
+  spec.social_media_url = "https://twitter.com/simaoseica"
 
-  s.ios.deployment_target = "10.0"
+  spec.ios.deployment_target = "9.0"
 
-  s.source_files = "FFSwiftExtensions/Classes/**/*"
+  spec.source_files = "FFSwiftExtensions/Classes/**/*"
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # spec.public_header_files = 'Pod/Classes/**/*.h'
+  # spec.frameworks = 'UIKit', 'MapKit'
+  # spec.dependency 'AFNetworking', '~> 2.3'
 end
