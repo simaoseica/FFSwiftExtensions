@@ -6,8 +6,6 @@
 //
 //
 
-import Foundation
-
 extension Sequence {
 
     func count(_ shouldCount: (Iterator.Element) -> Bool) -> Int {
