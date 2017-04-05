@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = "FFSwiftExtensions"
-  spec.version          = "0.1.0"
+  spec.version          = "0.1.1"
   spec.summary          = "Swift Extensions for Farfetch projects."
   spec.description      = <<-DESC
 This pod gives a bunch of Swift Extensions that can be applied on Farfetch projects.
