@@ -7,7 +7,8 @@
 //
 
 public protocol Describable	{
-	var typeName: String { get }
+
+    var typeName: String { get }
 	static var typeName: String { get }
 }
 

@@ -5,46 +5,49 @@ import Nimble
 import FFSwiftExtensions
 
 class TableOfContentsSpec: QuickSpec {
+
     override func spec() {
-        describe("these will fail") {
 
-            it("can do maths") {
-                expect(1) == 2
-            }
+        describe("Sequence") {
 
-            it("can read") {
-                expect("number") == "string"
-            }
+            context("should count by expression") {
 
-            it("will eventually fail") {
-                expect("time").toEventually( equal("done") )
-            }
-            
-            context("these will pass") {
+                it("in int sequence") {
 
-                it("can do maths") {
-                    expect(23) == 23
+                    let oneToTen = 1...10
+                    let count = oneToTen.count({$0 > 4})
+
+                    expect(count).to(equal(6))
                 }
 
-                it("can read") {
-                    expect("🐮") == "🐮"
+                it("in string sequence") {
+
+                    let stringSequence = ["simao", "pedro", "neves", "seiça"]
+                    let count = stringSequence.count({$0 == "seiça"})
+
+                    expect(count).to(equal(1))
                 }
 
-                it("will eventually pass") {
-                    var time = "passing"
+                it("in object sequence") {
 
-                    DispatchQueue.main.async {
-                        time = "done"
-                    }
-
-                    waitUntil { done in
-                        Thread.sleep(forTimeInterval: 0.5)
-                        expect(time) == "done"
-
-                        done()
-                    }
+                    let simao = Person(name: "simao", surname: "seiça", isEngineer: true)
+                    let pedro = Person(name: "pedro", surname: "almeida", isEngineer: false)
+                    
+                    let dicSequence = [simao, pedro]
+                    let count = dicSequence.count({ $0.isEngineer })
+                    
+                    expect(count).to(equal(1))
                 }
             }
+
+            it("should zip in a Pair") {
+
+                let oneToTen = 1...10
+                let tuple = oneToTen.eachPair()
+
+                expect(tuple).toEventuallyNot(beNil())
+            }
+
         }
     }
 }

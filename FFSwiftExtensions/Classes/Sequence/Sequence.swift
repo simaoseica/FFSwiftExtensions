@@ -23,3 +23,11 @@ extension Sequence {
         return count
     }
 }
+
+extension Sequence where Self.SubSequence: Sequence, Self.SubSequence.Iterator.Element == Self.Iterator.Element {
+
+    public func eachPair() -> AnySequence<(Iterator.Element, Iterator.Element)> {
+
+        return AnySequence(zip(self, self.dropFirst()))
+    }
+}

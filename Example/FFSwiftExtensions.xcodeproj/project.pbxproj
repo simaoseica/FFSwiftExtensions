@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		112205531E950FDA00981030 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112205521E950FDA00981030 /* Person.swift */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		FFA3D403EE1ADEEFA22B85B0 /* Pods_FFSwiftExtensions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45832D7876A5CEB56EAFC3FA /* Pods_FFSwiftExtensions_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		112205521E950FDA00981030 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		45832D7876A5CEB56EAFC3FA /* Pods_FFSwiftExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFSwiftExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57CCA927135840535339183D /* FFSwiftExtensions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFSwiftExtensions.podspec; path = ../FFSwiftExtensions.podspec; sourceTree = "<group>"; };
 		5F32DAB4D9414E84CEB8D1B6 /* Pods-FFSwiftExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFSwiftExtensions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFSwiftExtensions_Tests/Pods-FFSwiftExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		112205511E950FC600981030 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				112205521E950FDA00981030 /* Person.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +67,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				112205511E950FC600981030 /* Classes */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -234,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				112205531E950FDA00981030 /* Person.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
