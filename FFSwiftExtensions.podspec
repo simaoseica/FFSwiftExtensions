@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
   spec.name             = "FFSwiftExtensions"
   spec.version          = "0.1.1"
-  spec.summary          = "Swift Extensions for Farfetch projects."
+  spec.summary          = "Swift Extensions."
   spec.description      = <<-DESC
-This pod gives a bunch of Swift Extensions that can be applied on Farfetch projects.
+This pod gives a bunch of Swift Extensions that can be applied on projects.
 Besides that, the idea is to have subspecs to avoid all the extra boilerplate.  
                        DESC
   spec.homepage         = "https://github.com/simaoseica/FFSwiftExtensions"
