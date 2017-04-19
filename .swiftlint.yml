@@ -35,7 +35,7 @@ file_header:
                     \/\/  FFSwiftExtensions
                     \/\/
                     \/\/  Created by .*? on \d{1,2}\/\d{1,2}\/\d{2}\.
-                    \/\/  Copyright © \d{4} Farfetch\. All rights reserved\.
+                    \/\/  Copyright © \d{4} simaoseica\. All rights reserved\.
                     \/\/
 line_length: 120
 number_separator:
