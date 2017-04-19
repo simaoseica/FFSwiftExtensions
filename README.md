@@ -36,7 +36,7 @@ pod "FFSwiftExtensions", :path => '../FFSwiftExtensions'
 * After the tag is applied on origin, push the spec to the internal Specs repo via:
 
 ```bash
-~/dev/FFSwiftExtensions #  pod repo push farfetch FFSwiftExtensions.podspec  --private
+~/dev/FFSwiftExtensions #  pod repo push simaoseica FFSwiftExtensions.podspec  --private
 ```
 
 ## Author
